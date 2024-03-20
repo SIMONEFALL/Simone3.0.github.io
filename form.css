@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+  .logo{
+    width: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    font-style: italic;
+    margin-left: -8em;
+    margin-top: 8em;
+     }
+  
+  nav{
+    flex: 1;
+    text-align: right;
+    margin-right:-10em;
+   margin-top: 15em;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 90px;
+    
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 5px solid transparent;
+    margin: 5px;
+    font-weight: 400;
+    transition: 0.6s ease;
+  }
+  ul li a:hover{
+    background: white;
+    color: #000;
+  
+  }
+  ul li.active a{
+    background: white;
+    color: #000;
+  }
+  .navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-top: -45%;
+   
+  }
+  
+
+
+
+body{
+    background: linear-gradient(45deg,#fc466b,#3f5ef3);
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    position: relative;
+}
+form{
+    background: rgba(255,255,255,.3);
+    padding: 3rem;
+    height: 420px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    box-shadow: 20px 20px 60px -6px rgba(0,0,0,.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 8em;
+}
+h2{
+    font-weight: 600;
+    color: blanchedalmond;
+    opacity: .8;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    background: transparent;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3) ;
+    padding: 1rem;
+    width: 600px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,.2);
+    color: white;
+    font-weight: 600;
+    text-shadow:  2px 2px 4px rgba(0,0,0,.2);
+    transition: all .3s;
+    margin-bottom: 15px;
+}
+#style{
+    background: transparent;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3) ;
+    padding: 1rem;
+    width: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,.2);
+    color: white;
+    font-weight: 600;
+    text-shadow:  2px 2px 4px rgba(0,0,0,.2);
+    height: 90px;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+
+}
+
+input:hover,
+input[type="email"]:focus,
+input[type="text"]:focus{
+    background: rgba(255,255,255,.1);
+    box-shadow: 4px 4px 60px rgba(0,0,0,.2);
+}
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 250 px;
+}
+.drop{
+    background: rgba(255,255,255,.3);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  -webkit-backdrop-filter: blur(10px);
+  border-left: 1px solid rgba(255,255,255,.3);
+  border-top:  1px solid rgba(255,255,255,.3) ;
+  border-radius: 10px;
+  box-shadow: 10px 10px 60px -8px rgba(255,255,255,.2) ;
+}
+.drop1{
+    height: 80px;
+    width: 80px;
+    top: -20px ;
+    left:-40px;
+    z-index: -1;
+    
+
+}
+.drop2{
+    height: 80px;
+    width: 80px;
+    bottom: -30px;
+    right: 10px;
+}
+.drop3{
+    height: 100px;
+    width: 100px;
+    bottom: 120px;
+    right: -50px;
+    z-index: -1;
+}
+.drop4{
+    height: 120px;
+    width: 120px;
+    top: -60px;
+    right: -50px;
+}
+textarea{
+    resize: none;
+}
+
